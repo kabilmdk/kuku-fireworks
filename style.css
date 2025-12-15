@@ -1,0 +1,5 @@
+body{background:#f8f9fa}
+.card{border-radius:12px}
+.old-price{text-decoration:line-through;color:#888}
+.offer{color:#d9534f;font-weight:bold}
+.thumb{height:80px;cursor:pointer;margin-right:5px}
