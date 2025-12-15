@@ -1,58 +1,21 @@
-# Crackers Store – Ultimate Static E‑commerce (GitHub Pages)
+# Crackers Store – Ultimate UI v2 (GitHub Pages)
 
-This is a **feature-rich static e‑commerce website** that runs directly on **GitHub Pages**.
+## New Enhancements
+✔ Amazon-style product image zoom  
+✔ Add-to-cart click count (badge on cart)  
+✔ Improved cart UI (table layout, +/- buttons)  
 
-## ⭐ Features
-✔ Product image gallery (multiple images per product)  
-✔ Discount / offer price display  
-✔ Cart with quantity control  
-✔ Category filter + search  
-✔ Pickup point selection  
-✔ WhatsApp order sharing  
-✔ Order confirmation modal  
-✔ Order download as **PDF** (no backend)
+Everything is **100% static** and works on **GitHub Pages**.
 
 ---
 
-## 🚀 Deploy on GitHub Pages
-1. Upload all files to GitHub repo root
-2. Settings → Pages
-3. Branch: `main`, Folder: `/`
-4. Save
-
-Live URL:
-```
-https://<username>.github.io/<repo-name>/
-```
+## 🚀 Deploy
+Upload all files → GitHub → Settings → Pages → main / root
 
 ---
 
-## 🛠 How to Manage Products & Prices
-
+## 🛠 Product Management
 Edit:
-```
 js/products.js
-```
 
-Example:
-```js
-{
-  sku: "F101",
-  name: "Electric Sparkler",
-  price: 120,
-  offerPrice: 90,
-  category: "Kids",
-  images: [
-    "https://images.unsplash.com/photo-1604928141064-207cea6f571f",
-    "https://images.unsplash.com/photo-1519681393784-d120267933ba"
-  ]
-}
-```
-
-- Add product → add object
-- Remove product → delete object
-- Change price → edit `price` or `offerPrice`
-
-Push to GitHub → site updates automatically.
-
----
+Change name, images, price, offerPrice.

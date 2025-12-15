@@ -1,5 +1,7 @@
 body{background:#f8f9fa}
 .card{border-radius:12px}
+.thumb{height:60px;cursor:pointer}
+.zoom-img{transition:transform .3s}
+.zoom-img:hover{transform:scale(1.4)}
 .old-price{text-decoration:line-through;color:#888}
 .offer{color:#d9534f;font-weight:bold}
-.thumb{height:80px;cursor:pointer;margin-right:5px}
